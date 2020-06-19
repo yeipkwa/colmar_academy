@@ -55,8 +55,8 @@ aside{
     width: 40%;
 }
 
-.main img {
-    width: 100%
+.main img, video{
+    width: 100%;
 }
 
 .button {
@@ -73,6 +73,8 @@ aside{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 
 
 
