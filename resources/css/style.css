@@ -35,24 +35,27 @@ nav ul li {
     width: 100%;
 }
 
-.section, footer, header{
+footer, header{
     padding-left: 24px;
     padding-right: 24px;
 }
 
+#banner {
+    align-items: center;
+}
+
 .section {
     display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    align-items: flex-start;
 }
 
 .main {
     width: 60%;
-    margin-right: 24px;
+    padding: 32px 24px;
 }
-aside{
+.aside{
     width: 40%;
+    padding-top: 16px; 
 }
 
 .main img, video{
@@ -69,13 +72,47 @@ aside{
     padding-bottom: 8px;
 }
 
-#start-here h1, h4, .botton {
+#start-here h1, #start-here h4, .botton {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+#articles {
+    padding: 0;
+}
 
+.article {
+    display: flex;
+    padding: 16px 0px 16px 16px ;
 
+    align-items: center;
+    justify-content: start;
+
+}
+
+.article img {
+    width: 35%;
+}
+
+.article .info {
+    width: 65%;
+}
+
+.aside-content{
+    margin-right: 16px;
+}
+
+#latest img {
+    margin-bottom: 32px;
+}
+
+#latest h2{
+    margin-bottom: 24px;
+}
+
+#latest p{
+    padding-bottom: 32px;
+}
 
 
 
