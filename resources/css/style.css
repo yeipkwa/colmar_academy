@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 20px;
+    font-size: 16px;
 }
 body {
     width: 100%
@@ -63,7 +63,7 @@ footer, header{
 }
 
 .button {
-    width: 300px;
+    width: 225px;
     background-color: grey;
     color: white;
     display: block;
@@ -113,6 +113,80 @@ footer, header{
 #latest p{
     padding-bottom: 32px;
 }
+
+.article h4, .article p {
+    margin-bottom: 10px;
+}
+
+#start-learning{
+    padding: 32px 72px;
+    text-align: center;
+    width: 100%;
+}
+
+.layer{
+    display: flex;
+    
+}
+
+.course {
+    text-align: left;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+
+}
+
+.right {
+    margin-right: 0;
+}
+.course img {
+    width: 100%;
+    height: auto;
+    margin-bottom;
+}
+
+#start-learning h2 {
+    margin-bottom: 32px;
+}
+
+.course .info {
+    padding: 16px 16px 24px 16px;
+}
+
+.course .info span{
+    display: block;
+    padding: 8px 0px;
+}
+
+#thesis-exhibit h2 {
+    text-align: center;
+}
+#thesis-exhibit .section .main h4{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#thesis-exhibit .section .main p{
+    margin-bottom: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#privacy-nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+
+
+
 
 
 
