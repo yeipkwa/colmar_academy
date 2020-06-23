@@ -6,12 +6,14 @@
 
 html{
     font-size: 16px;
+    min-width: 320px;
 }
 body {
-    width: 100%
+    width: 100%;
 }
+    
 
-header{
+header .desktop, header .mobile{
     width: 100%;
     height: 64px;
     align-items: center;
@@ -19,6 +21,17 @@ header{
     justify-content: space-between;
     
 }
+header .mobile {
+    display: none;
+}
+
+header .mobile nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
 
 nav ul li {
     display: inline-block;
@@ -92,6 +105,10 @@ footer, header{
 
 .article img {
     width: 35%;
+}
+
+.article .mobile {
+    display: none;
 }
 
 .article .info {
@@ -176,6 +193,7 @@ footer {
     padding-top: 16px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #privacy-nav ul li {
@@ -183,6 +201,60 @@ footer {
     margin: 10px;
 }
 
+@media only screen and (max-width: 690px){
+    header .desktop{
+        display: none;
+    }
+    header .mobile{
+        display: flex;
+    }
+    #banner {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    #banner .aside, #banner .main{
+        width: 100%;
+        padding: 0;
+    }
+
+    #articles .main{
+        display: none;
+    }
+
+    #articles .aside {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-top: 16px;
+        
+    }
+
+    #articles .article .desktop {
+        display: none;
+    }
+
+    #articles .article .mobile{
+        display: flex;
+        width: 100%;
+    }
+
+    #articles .article {
+        flex-direction: column;
+        padding-bottom: 32px;
+        padding-top: 0;
+    }
+
+    #articles .article .info{
+        width: 100%;
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+    
+
+    
+    
+}
 
 
 

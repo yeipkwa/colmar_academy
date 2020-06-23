@@ -7,18 +7,28 @@
 
     <body>
         <header>
-            <div id = "logo">
-                <img src = "./resources/images/ic-logo.svg"/>
-                <span>ColmarAcademy</span>
-            </div>
+            <div class = "desktop">
+                <div id = "logo">
+                    <img src = "./resources/images/ic-logo.svg"/>
+                    <span>ColmarAcademy</span>
+                </div>
 
-            <nav>
-                <ul>
-                    <li>On campus</li>
-                    <li>Online for companies</li>
-                    <li>Sign-In</li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li>On campus</li>
+                        <li>Online for companies</li>
+                        <li>Sign-In</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class = "mobile">
+                    <nav>
+                    <img src = "./resources/images/ic-logo.svg"/>
+                    <img src = "./resources/images/ic-on-campus.svg">
+                    <img src = "./resources/images/ic-online.svg">
+                    <img src = "./resources/images/ic-login.svg">
+                </nav>
+            </div>
         </header>
 
         <div id = "main-container">
@@ -47,7 +57,9 @@
                 </div>
                 <div class = "aside">
                     <div class = "article">
-                        <img src = "./resources/images/information-orientation.jpg" class = "aside-content"/>
+                        <img src = "./resources/images/information-orientation.jpg" class = "aside-content desktop"/>
+                        <img src = "./resources/images/information-orientation-mobile.jpg" class = "aside-content mobile"/>
+
                         <div class = "info aside-content">
                             <h4>Orientation date</h4>
                             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -55,7 +67,8 @@
                         </div>
                     </div>
                     <div class = "article">
-                        <img src = "./resources/images/information-campus.jpg" class =  "aside-content" />
+                        <img src = "./resources/images/information-campus.jpg" class =  "aside-content desktop" />
+                        <img src = "./resources/images/information-campus-mobile.jpg" class = "aside-content mobile"/>
                         <div class = "info">
                             <h4>Our Campus</h4>
                             <p>Find which campus is close by you</p>
@@ -63,7 +76,8 @@
                         </div>
                     </div>
                     <div class = "article">
-                        <img src = "./resources/images/information-guest-lecture.jpg" class = "aside-content"/>
+                        <img src = "./resources/images/information-guest-lecture.jpg" class = "aside-content desktop"/>
+                        <img src = "./resources/images/information-guest-lecture-mobile.jpg" class = "aside-content mobile"/>
                         <div class = "info aside-content">
                             <h4>Our guest lecture</h4>
                             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
