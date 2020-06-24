@@ -135,11 +135,36 @@ footer, header{
     margin-bottom: 10px;
 }
 
-#start-learning{
+#start-learning .desktop{
     padding: 32px 72px;
     text-align: center;
     width: 100%;
 }
+ #start-learning .mobile {
+     text-align: center;
+     padding: 32px 16px;
+     width: 100%;
+     display: none;
+ }
+
+#start-learning .mobile .courses{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 16px;
+
+}
+
+#start-learning .mobile .course{
+    padding: 16px 16px 24px 16px;
+    margin: 0px 0px 8px 0px;
+    width: 100%;
+    background-color: lavender;
+
+}
+
+
+    
 
 .layer{
     display: flex;
@@ -152,6 +177,9 @@ footer, header{
     display: flex;
     flex-direction: column;
     width: 33.33%;
+}
+
+#start-learning .mobile .course {
 
 }
 
@@ -161,10 +189,9 @@ footer, header{
 .course img {
     width: 100%;
     height: auto;
-    margin-bottom;
 }
 
-#start-learning h2 {
+#start-learning .desktop h2 {
     margin-bottom: 32px;
 }
 
@@ -250,6 +277,41 @@ footer {
         padding-top: 16px;
         padding-left: 16px;
     }
+
+    #start-learning .mobile {
+        display: block;
+    }
+
+    #start-learning .desktop {
+        display: none;
+    }
+
+    #thesis-exhibit{
+        padding: 32px 0px 24px 0px;
+
+    }
+
+    #thesis-exhibit .aside,  #thesis-exhibit .main p,  #thesis-exhibit .main h4{
+        display: none;
+    }
+
+    #thesis-exhibit .main {
+        width: 100%;
+        padding: 0;
+    }
+    #thesis-exhibit h2 {
+        margin-bottom: 16px;
+    }
+
+    #privacy-nav {
+        display: none;
+    }
+
+    footer {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
     
 
     
