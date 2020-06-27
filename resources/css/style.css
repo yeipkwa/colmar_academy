@@ -7,9 +7,22 @@
 html{
     font-size: 16px;
     min-width: 320px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
     width: 100%;
+}
+
+header{
+    background-color: #f8cf3d;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#main-container {
+    position: relative;
+    top: 64px;
 }
     
 
@@ -18,8 +31,7 @@ header .desktop, header .mobile{
     height: 64px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 header .mobile {
     display: none;
@@ -42,6 +54,7 @@ nav ul li {
     height: 24px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
 }
 
 #main-container {
@@ -77,12 +90,18 @@ footer, header{
 
 .button {
     width: 225px;
-    background-color: grey;
+    background-color: #47005e;
     color: white;
     display: block;
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+    border-radius: 20px;
+    transition: 0.2s ease-out;
+}
+
+.button:hover {
+    background-color: #67556d;
 }
 
 #start-here h1, #start-here h4, .botton {
@@ -177,6 +196,13 @@ footer, header{
     display: flex;
     flex-direction: column;
     width: 33.33%;
+    background-color: rgb(246, 246, 255);
+    margin-bottom: 16px;
+    transition: 0.2s linear;
+}
+
+.course:hover{
+    background-color: lavender;
 }
 
 #start-learning .mobile .course {
