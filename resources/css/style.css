@@ -196,7 +196,7 @@ footer, header{
     display: flex;
     flex-direction: column;
     width: 33.33%;
-    background-color: rgb(246, 246, 255);
+    background-color: rgba(201, 201, 201, 0.1);
     margin-bottom: 16px;
     transition: 0.2s linear;
 }
